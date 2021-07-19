@@ -1,0 +1,113 @@
+/*#region Buttons*/
+.e-primary,
+.e-primary:hover,
+.e-primary:focus,
+.e-primary:active {
+  background-color: #36a9e1 !important;
+  border-color: #36a9e1 !important;
+  color: #fff !important;
+}
+
+.e-success,
+.e-success:hover,
+.e-success:focus,
+.e-success:active {
+  background-color: #56baa2 !important;
+  border-color: #56baa2 !important;
+  color: #fff !important;
+}
+
+.e-info,
+.e-info:hover,
+.e-info:focus,
+.e-info:active {
+  background-color: #f2f2f2 !important;
+  border-color: #f2f2f2 !important;
+  color: #343f51 !important;
+}
+
+.e-warning,
+.e-warning:hover,
+.e-warning:focus,
+.e-warning:active {
+  background-color: #e94a48 !important;
+  border-color: #e94a48 !important;
+  color: #fff !important;
+}
+
+.e-link,
+.e-link:hover,
+.e-link:focus,
+.e-link:active {
+  background-color: #fff !important;
+  border-color: #36a9e1 !important;
+  color: #343f51 !important;
+}
+/*#endregion Buttons*/
+/*#region DropDownList*/
+.e-outline.e-input-group.e-input-focus:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled):not(.e-float-icon-left),
+.e-outline.e-input-group.e-input-focus:active:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled):not(.e-float-icon-left),
+.e-outline.e-input-group.e-input-focus.e-control-wrapper:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled):not(.e-float-icon-left),
+.e-outline.e-input-group.e-input-focus:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled),
+.e-outline.e-input-group.e-control-wrapper.e-input-focus:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled) {
+  border-color: #767676;
+  box-shadow: inset 1px 1px #767676, inset -1px 0 #767676, inset 0 -1px #767676;
+}
+.e-dropdownbase .e-list-item.e-item-focus,
+.e-dropdownbase .e-list-item.e-active,
+.e-dropdownbase .e-list-item.e-active.e-hover,
+.e-dropdownbase .e-list-item.e-hover {
+  background-color: #e3e3e3;
+}
+/*#endregion DropDownList*/
+
+/*#region Inputs*/
+
+.e-input-group:not(.e-disabled):active:not(.e-success):not(.e-warning):not(.e-error),
+.e-input-group.e-control-wrapper:not(.e-disabled):active:not(.e-success):not(.e-warning):not(.e-error) {
+  border-color: #767676 !important;
+}
+
+.e-input-group:active:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled),
+.e-input-group.e-control-wrapper:active:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled),
+.e-float-input:active:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled),
+.e-float-input.e-control-wrapper:active:hover:not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled),
+.e-float-input:active:hover:not(.e-input-group):not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled)
+  input:not([disabled]),
+.e-float-input.e-control-wrapper:active:hover:not(.e-input-group):not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled)
+  input:not([disabled]),
+.e-float-input:active:hover:not(.e-input-group):not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled)
+  textarea:not([disabled]),
+.e-float-input.e-control-wrapper:active:hover:not(.e-input-group):not(.e-success):not(.e-warning):not(.e-error):not(.e-disabled)
+  textarea:not([disabled]) {
+  border-color: #767676 !important;
+}
+
+/*#endregion Inputs*/
+
+/*#region Filters*/
+
+.ve-filters {
+  background-color: #343f51;
+}
+
+.ve-filters .e-float-text.e-label-top {
+  color: white !important;
+}
+
+.e-float-text.e-label-top {
+  transform: translate3d(-10px, -32px, 0) scale(1) !important ;
+}
+
+/*#endregion Filters*/
+
+/*#region CheckBox*/
+.e-checkbox-wrapper .e-frame.e-check {
+  background-color: #343f51 !important;
+  border-color: #343f51 !important;
+}
+/*#endregion CheckBox*/
+
+span.e-menu-icon::before {
+  content: '\e919';
+}

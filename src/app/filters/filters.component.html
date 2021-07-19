@@ -1,0 +1,32 @@
+<div class="ve-filters">
+  <div class="row p-3 align-items-end">
+    <div class="col">
+      <ejs-dropdownlist id='ddlelement' [dataSource]='data' placeholder='Select a game' floatLabelType='Auto'>
+      </ejs-dropdownlist>
+    </div>
+    <div class="col">
+      <ejs-textbox placeholder="Filled" floatLabelType="Auto"></ejs-textbox>
+    </div>
+    <div class="col">
+      <ejs-dropdownlist id='ddlelement' [dataSource]='data' placeholder='Select a game' floatLabelType='Auto'
+        showClearButton="true">
+      </ejs-dropdownlist>
+    </div>
+    <div class="col">
+      <ejs-textbox placeholder="Filled" floatLabelType="Auto"></ejs-textbox>
+    </div>
+    <div class="col-1">
+      <div class="bg-white p-1">
+        <ejs-checkbox label="Default" class=""></ejs-checkbox>
+      </div>
+    </div>
+    <div class="col mr-auto">
+      <button ejs-button cssClass="e-primary">Cerca</button>
+    </div>
+    <div class="col-auto">
+      <button ejs-button cssClass="e-info" iconCss="e-menu-icon" (click)="btnClick($event)">
+        <ejs-contextmenu #contextmenu [items]='menuItems'></ejs-contextmenu>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+/* Add application styles & imports to this file! */
+
+@import url('https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css');
+@import url('https://unpkg.com/@syncfusion/ej2@19.2.47/fabric.css');
+@import 've-fabric-override.css';
+
+/* @import url('https://unpkg.com/@syncfusion/ej2-base@19.2.47/styles/fabric.css');
+@import url('https://unpkg.com/@syncfusion/ej2-buttons@19.2.47/styles/fabric.css');
+
+@import url('https://unpkg.com/@syncfusion/ej2-dropdowns/styles/fabric.css');
+@import url('https://unpkg.com/@syncfusion/ej2-inputs/styles/fabric.css');
+@import url('https://unpkg.com/@syncfusion/ej2-popups/styles/fabric.css');
+@import url('https://unpkg.com/@syncfusion/ej2-lists/styles/fabric.css');
+@import url('https://unpkg.com/@syncfusion/ej2-angular-dropdowns/styles/fabric.css');
+@import url('https://unpkg.com/@syncfusion/ej2-navigations/styles/fabric.css'); */
+
+/* Stackbliz problem when importing from module: */
+/*@import '~@syncfusion/ej2-base/styles/fabric.css';
+@import '~@syncfusion/ej2-buttons/styles/fabric.css';*/
